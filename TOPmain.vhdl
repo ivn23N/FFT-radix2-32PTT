@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity TOPmain is
     generic (
         DATA_WIDTH : integer := 32;
-        N_POINTS   : integer := 256;
+        N_POINTS   : integer := 32;
         FRAC_WIDTH : integer := 15
     );
     port (
